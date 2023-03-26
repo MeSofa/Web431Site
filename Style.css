@@ -163,6 +163,7 @@ text-align: center; position: absolute; left: 37%; top: 10%;
   z-index: 1;
 }
 */
+
 #MenuTable{
   position: absolute; left: 10%; top: 10%;
   text-align: center;
@@ -177,3 +178,4 @@ text-align: center; position: absolute; left: 37%; top: 10%;
 .drinkImg{
   text-align: center;
 }
+
