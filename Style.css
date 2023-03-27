@@ -1,13 +1,10 @@
-body{background-color: black; background-image: url(); background-size: cover;}
+body{background-color: black; background-image: url(); background-size: cover; cursor: url('Media/Images/Va11halla_Pointer.cur'), url(Media/Images/Va11halla_Pointer.png), auto;}
 
 @font-face {
   font-family: myFirstFont;
   src: url(Fonts/RobotoCondensed.ttf);
 }
 
-.body { 
-  Display: flex;
-  }
 
 p  {  color: white;
     line-height: 1.6;
@@ -17,15 +14,18 @@ p  {  color: white;
 /* This is everything to do with navigation */
 
 .topnav {
+  cursor: url('Media/Images/Va11halla_Pointer.cur'), url(Media/Images/Va11halla_Pointer.png), auto;
   background-color: #000000;
   overflow: hidden;
   width: fit-content;
   max-width: 600px;
   margin: auto;
   position: fixed; left: 700px;
+  z-index: 5;
 }
 
 .topnav a {
+  cursor: url('Media/Images/Va11halla_Pointer.cur'), url(Media/Images/Va11halla_Pointer.png), auto;
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -34,15 +34,18 @@ p  {  color: white;
   font-size: 17px;
 }
 .topnav a:hover {
+  cursor: url('Media/Images/Va11halla_Pointer.cur'), url(Media/Images/Va11halla_Pointer.png), auto;
   background-color: #008CBA;
   color: white;
 }
 .topnav a.active {
   background-color: #f50056;
+  cursor: url('Media/Images/Va11halla_Pointer.cur'), url(Media/Images/Va11halla_Pointer.png), auto;
   color: white;
 }
 .topnav a:visited{
   color: lightgreen;
+  cursor: url('Media/Images/Va11halla_Pointer.cur'), url(Media/Images/Va11halla_Pointer.png), auto;
 }
 
 /*End of nav section */
@@ -164,10 +167,14 @@ text-align: center; position: absolute; left: 37%; top: 10%;
 }
 */
 
+#MenuBody{
+  background-image: url(Media/Images/menubackground.png);
+}
+
 #MenuHeader{
   font-size: 400%;
   position: absolute;
-  left: 40%; top: 5%;
+  left: 40%; top: 3%;
 }
 
 .MenuTable{
@@ -226,4 +233,27 @@ text-align: center; position: absolute; left: 37%; top: 10%;
 #backtotop{
   position: fixed; left: 92%; top: 92%;
 
+}
+
+/* Page 3 End */
+
+/* Page 4 Start */
+
+.bookingForm label{
+  color: white;
+  font-family: 'RobotoCondensed', sans-serif;
+  text-shadow: 1px 1px 2px #303030;
+  padding: 10px;
+}
+
+.bookingForm input{
+  padding: 5px;
+  margin: 5px;
+  border: 0;
+  
+}
+
+.bookingForm input:hover{
+
+  box-shadow: 3px 3px 8px #888888;
 }

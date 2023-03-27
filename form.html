@@ -2,9 +2,52 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <title>Booking Form</title>
+    <style type="text/css">
+        @import url("Style.css");
+        </style>
+            <link rel="icon" href="favicon.ico"; type="image">
 </head>
-<body>
-    
+<body id="FormBody">
+    <div class="topnav">
+        <a href="index.html">Welcome</a>
+        <a href="list.html">Music</a>
+        <a href="table.html">Menu</a>
+        <a class="active" href="form.html">Bookings</a>
+        <a href="">PRINCIPLES</a>
+      </div> 
+
+
+    <br><br><br><br>  <hr>
+    <h1>Bookings Form</h1>
+
+    <form class="bookingForm" METHOD="POST" ACTION="mailto:200010081@students.bendigotafe.edu.au">
+        <label for="name">Booking Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="date">Booking Date:</label>
+        <input type="date" id="start" name="booking-date" value="2078-03-28" min="2078-03-28" max="2080-12-31"> <br>
+      
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+      
+        <label for="govt-id">Citizen Identification Number:</label>
+        <input type="text" id="govt-id" name="govt-id" required><br>
+      
+        <label for="patrons">Number of Patrons:</label>
+        <input type="number" id="patrons" name="patrons" min="1" required placeholder="1"><br>
+      
+        <label for="private-venue">Do you want the venue to yourselves? ($10000 Surcharge) </label>
+        <select id="private-venue" name="private-venue">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+      
+        <input type="submit" value="Submit?">
+      </form>
+      
 </body>
 </html>
