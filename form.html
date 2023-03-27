@@ -33,15 +33,31 @@
       
         <label for="govt-id">Citizen Identification Number:</label>
         <input type="text" id="govt-id" name="govt-id" required><br>
+
+        <textarea name="diet" rows="3" cols="30">
+        Do you have any dietary requirements?
+        </textarea> <br>
       
         <label for="patrons">Number of Patrons:</label>
         <input type="number" id="patrons" name="patrons" min="1" required placeholder="1"><br>
+
+        <input type="checkbox" id="food" name="food" value="Food">
+        <label for="food">We/I will be having food</label><br>
+        <input type="checkbox" id="drink" name="drink" value="Drink">
+        <label for="drink">We/I will be drinking</label><br>
       
         <label for="private-venue">Do you want the venue to yourselves? ($10000 Surcharge) </label>
         <select id="private-venue" name="private-venue">
           <option value="Yes">Yes</option>
           <option value="No">No</option>
-        </select><br>
+        </select><br> <br>
+
+        <label for="minors attending">Are any minors attending?</label> <br>
+        <label for="yes minors">Yes</label>
+        <input type="radio" id="yesminors"> <br>
+        <label for="no minors">No</label>
+        <input type="radio" id="nominors"> <br>
+
       
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br>
