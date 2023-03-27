@@ -257,3 +257,31 @@ text-align: center; position: absolute; left: 37%; top: 10%;
 
   box-shadow: 3px 3px 8px #888888;
 }
+
+/* Page 4 End */
+
+/* Page 5 Start */
+
+#cheekyText{
+  color: #303030;
+  text-align: center;
+  font-size: smaller;
+}
+
+#PrinciplesDiv {
+  text-align: center;
+}
+
+#PrinciplesDiv p, li{
+  list-style-position: inside;
+  color: white;
+}
+
+#napkinstuff{
+  text-align: center;
+}
+
+#DroppedNapkin{
+  position: absolute;
+  left: 90%;
+}
